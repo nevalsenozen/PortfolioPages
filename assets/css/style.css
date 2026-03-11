@@ -52,7 +52,7 @@
 
   .figma-projects {
     width: 1110px;
-    height: 733px;
+    
     margin-inline: auto;
     border: 1px solid #C4C4C4;
     margin-top: 60px;
@@ -73,15 +73,21 @@
     border: 1px solid #C4C4C4;
     border-radius: 10px;
     color: white;
-    background-color: rgb(55, 57, 139);
+    background-color: rgb(71, 9, 9);
     display: inline-block;
     align-items: center;
     margin: 20px;
     text-decoration: none;
     align-items: space-between;
     flex-wrap: wrap;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+   }
 
+   a:hover{
+    background-color: #0e0102; 
+    transform: scale(1.1);
   }
+
   
   
   .project {
