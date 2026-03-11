@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+  font-family: montserrat;
+}
+/* header start */
+
+ .header-container {
+  max-width: 1110px;
+  margin-inline: auto;
+} 
+
+.header-container h4 {
+  margin-top: 120px;
+  font-size: 30px;
+  color:#212121
+  
+}
+
+.header-container p {
+  font-size: 60px;
+}
+
+.socialmediaicons {
+  display: flex;
+  width: 48px;
+  gap: 32px;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+/* header end */
+
+/* projects start */
+
+.container{
+  max-width: 1110px;
+  margin-inline: auto;
+  }
+
+
+
+  .container h6{
+    font-size: 30px;
+    margin-top: 122px;
+  }
+
+  .figma-projects {
+    width: 1110px;
+    height: 733px;
+    margin-inline: auto;
+    border: 1px solid #C4C4C4;
+    margin-top: 60px;
+    border-radius: 10px;
+  }
+    
+    
+
+  .figma-projects h4{
+    font-size: 30px;
+    gap: 24px;
+    
+  }
+
+  .figma-projects a{
+    font-size: 24px;
+    padding: 43px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(55, 57, 139);
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    text-decoration: none;
+    align-items: space-between;
+    flex-wrap: wrap;
+
+  }
+  
+  
+  .project {
+    width: 1110px;
+    height: 733px;
+    margin-inline: auto;
+    border: 1px solid #C4C4C4;
+    margin-top: 60px;
+    border-radius: 10px;
+    }
+
+  .project img{
+    width: 1062px;
+    height: 468px;
+    border-radius: 10px;
+    margin: 20px
+  }
+
+  .project h4{
+    font-size: 30px;
+    gap: 24px;
+    margin-left: 20px;
+  }
+
+  .project p{
+    font-family: open-sans;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    
+  }
+
+  .project a{
+    font-size: 14px;
+    color: #212121;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 24px;
+  }
+
+/* projects end */
+
+/* contact start */
+
+.contact h6{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 250px;
+
+  
+}
+
+.contact p{
+  font-size: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  
+}
